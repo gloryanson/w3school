@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="css/bio.css">
+	<script src="js/bio.js"></script>
+</head>
+<body>
+	<header>
+		<h1>ABOUT ME</h1>
+	</header>
+	<div class="left">
+		<img class="visible" src="img/photo1.jpg" alt="photo1">
+		<img class="invisible" src="img/photo2.jpg" alt="photo2">
+		<img class="invisible" src="img/photo3.jpg" alt="photo3">
+		<br>
+		<button onclick="prev()"><</button>
+		<button onclick="next()">></button>
+		<p>Instagram : <a href="https://www.instagram.com/gloryanson/">@gloryanson</a></p>
+		<p>Email : gloryansonginting@gmail.com</p>
+	</div>
+	<div class="top right">
+		<div id="div-1" onclick="highlight(this)">
+			<h2>Place/Date of Birth</h2>
+			<p>Medan, 13<sup>th</sup> November 1998</p>
+		</div>
+		<div id="div-2" onclick="highlight(this)">
+			<h2>Education</h2>
+			<p>Student of Informatic Engineering ITB</p>
+		</div>
+	</div>
+	<div class="bottom right">
+		<div id="div-3" onclick="highlight(this)">
+			<h2>Weight</h2>
+			<p>70 kg</p>
+		</div>
+		<div id="div-4" onclick="highlight(this)">
+			<h2>Height</h2>
+			<p>171 cm</p>
+		</div>
+		<div id="div-5" onclick="highlight(this)">
+			<h2>Hobby</h2>
+			<p>Gaming, watching movies</p>
+		</div>
+	</div>
+
+</body>
+</html>
